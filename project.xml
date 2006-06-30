@@ -3,13 +3,11 @@
 <project>
   <extend>${base.project.dir}/block-dependencies.xml</extend>
   <pomVersion>3</pomVersion>
-  <name>idegaWeb modernus svarbox</name>
+  <name>idegaWeb Modernus svarbox</name>
   <artifactId>is.idega.block.modernus.svarbox</artifactId>
-  <currentVersion>1.0-SNAPSHOT</currentVersion>
-  <inceptionYear>2000</inceptionYear>
-  <shortDescription>Adds a script to a page so that modernus can count the hits. 
-  See www.modernus.is
-  </shortDescription>
+  <currentVersion>3.1.0</currentVersion>
+  <inceptionYear>2006</inceptionYear>
+  <shortDescription>Integration with the Modernus Svarbox module. See www.modernus.is</shortDescription>
   <versions>
   </versions>
   <branches/>
@@ -22,16 +20,9 @@
       <roles/>
     </developer>
     <developer>
-      <name>Pall Helgason</name>
-      <id>palli</id>
-      <email>palli@idega.is</email>
-      <organization>idega software</organization>
-      <roles/>
-    </developer>
-    <developer>
-      <name>Eirikur Sveinn Hrafnsson</name>
-      <id>eiki</id>
-      <email>eiki@idega.is</email>
+      <name>Sigtryggur Simonarson</name>
+      <id>sigtryggur</id>
+      <email>sigtryggur@idega.is</email>
       <organization>idega software</organization>
       <roles/>
     </developer>
@@ -45,18 +36,9 @@
   </developers>
   <dependencies>
     <dependency>
-      <groupId>myfaces</groupId>
-      <artifactId>jsf-api</artifactId>
-      <version>1.0</version>
-      <type>jar</type>
-      <url>http://java.sun.com/j2ee/javaserverfaces/</url>
-      <properties/>
-    </dependency>
-    <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.core</artifactId>
-     <!--<version>1.9.1</version>-->
-      <version>SNAPSHOT</version>
+      <version>3.1.0</version>
       <type>jar</type>
       <url>http://www.idega.com/</url>
       <properties>
