@@ -9,6 +9,11 @@
   <inceptionYear>2006</inceptionYear>
   <shortDescription>Integration with the Modernus Svarbox module. See www.modernus.is</shortDescription>
   <versions>
+    <version>
+      <id>3.1.0</id>
+      <name>3.1.0</name>
+      <tag>SVARBOX_3_1_0</tag>
+    </version>
   </versions>
   <branches/>
   <developers>
@@ -44,7 +49,7 @@
       <properties>
         <eclipse.dependency>true</eclipse.dependency>
       </properties>
-	</dependency> 
+    </dependency>
   </dependencies>
   <build>
     <sourceDirectory>src/java</sourceDirectory>
