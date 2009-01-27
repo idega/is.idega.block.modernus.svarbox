@@ -3,13 +3,13 @@
   <parent>
   	<groupId>com.idega.block.addon</groupId>
 	<artifactId>com.idega.block.addon</artifactId>
-	<version>4.0.3-SNAPSHOT</version>
+	<version>4.1.0</version>
   </parent>
   <packaging>jar</packaging>
   <groupId>com.idega.block.addon</groupId>
   <artifactId>is.idega.block.modernus.svardbox</artifactId>
   <name>idegaWeb Modernus svarbox</name>
-  <version>4.0.3-SNAPSHOT</version>
+  <version>4.1.0</version>
   <inceptionYear>2006</inceptionYear>
   
   <scm>
@@ -19,6 +19,7 @@
      -->
     <connection>scm:cvs:ext:idegaweb@code.idega.com:/idega/cvs:com.idega.block.addon/is.idega.block.modernus.svardbox/</connection>
     <developerConnection>scm:cvs:ext:idegaweb@code.idega.com:/idega/cvs:com.idega.block.addon/is.idega.block.modernus.svardbox/</developerConnection>
+    <tag>com_idega_block_addon-4_1_0</tag>
   </scm>
   <developers>
     <developer>
@@ -26,21 +27,21 @@
       <id>tryggvil</id>
       <email>tryggvi@idega.is</email>
       <organization>idega software</organization>
-      <roles/>
+      <roles />
     </developer>
     <developer>
       <name>Sigtryggur Simonarson</name>
       <id>sigtryggur</id>
       <email>sigtryggur@idega.is</email>
       <organization>idega software</organization>
-      <roles/>
+      <roles />
     </developer>
     <developer>
       <name>Thorhallur Helgason</name>
       <id>laddi</id>
       <email>laddi@idega.is</email>
       <organization>idega software</organization>
-      <roles/>
+      <roles />
     </developer>
   </developers>
   <dependencies>
